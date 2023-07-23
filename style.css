@@ -1,0 +1,200 @@
+.nav {
+  background-color: white;
+  z-index: 9;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  box-shadow: 0px 3px 65px 0px rgb(190, 189, 189);
+}
+.nav_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo {
+  float: left;
+  padding: 10px;
+  width: 60%;
+}
+.nav_side {
+  float: right;
+  width: 30%;
+  margin-top: 38px;
+}
+.nav_side a {
+  text-decoration: none;
+  margin-right: 25px;
+  padding-top: 20px;
+  font-weight: bolder;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 27px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.nav_side a:hover {
+  color: orange;
+  transition: all 0.1ms ease;
+}
+.main {
+  background-image: url("pageintro.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 78vh;
+}
+.main .main_content {
+  padding-top: 250px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.main .main_content h2 {
+  color: black;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  line-height: 20px;
+}
+.main .main_content h2 span {
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  opacity: 0.75;
+  line-height: 18px;
+}
+.main .main_content .btn {
+  text-align: center;
+  margin-left: 40%;
+  border-width: 2px solid white;
+}
+.main .main_content .btn a {
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(65, 42, 37);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.1ms;
+  color: white;
+}
+.main .main_content .btn a:hover {
+  color: orange;
+  border: none;
+  border-bottom: 3px solid rgb(121, 78, 69);
+  border-right: 3px solid rgb(121, 78, 69);
+  transition: 0.1ms;
+}
+.products h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+.products .products_container {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.products .products_container .mc {
+  width: 33%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+}
+.products .products_container .mc:hover {
+  box-shadow: 0px 5px 65px 0px lightgrey;
+}
+.products .products_container .mc .img {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+}
+.products .products_container .mc .img img {
+  width: 100%;
+  height: 420px;
+}
+.products .products_container .mc .link {
+  text-align: center;
+  text-decoration: none;
+}
+.products .products_container .mc .link a {
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(56, 45, 209);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.1ms;
+  color: white;
+}
+.products .products_container .mc .link a:hover {
+  color: red;
+  border: none;
+  border-bottom: 3px solid rgb(89, 89, 189);
+  border-right: 3px solid rgb(89, 89, 189);
+  transition: 0.1ms;
+}
+.products .products_container .mc .link h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+.products .more {
+  text-align: center;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+.products .more a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(35, 93, 129);
+}
+.products .more a:hover {
+  text-decoration: underline;
+  font-size: 23px;
+  color: blue;
+}
+.keypoints {
+  padding: 10px;
+}
+.keypoints h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+.keypoints .key_container {
+  display: flex;
+  margin-left: 3%;
+}
+.keypoints .key_container .key_content {
+  width: 40%;
+}
+.keypoints .key_container .key_content li {
+  border-left: 2px solid orange;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 3px 25px 0px lightgrey;
+  list-style: none;
+}
+.keypoints .key_container .keypic {
+  width: 51.5%;
+  float: right;
+  margin-top: 10px;
+}
+.keypoints .key_container .keypic img {
+  width: 100%;
+}
