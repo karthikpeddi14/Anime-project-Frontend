@@ -1,8 +1,10 @@
 .nav {
   background-color: white;
+  /* z-index: 9; */
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
+  /* what is flex */
   box-shadow: 0px 3px 65px 0px rgb(190, 189, 189);
 }
 .nav_top {
@@ -10,28 +12,29 @@
   top: 0;
   left: 0;
   right: 0;
+  /* ? */
 }
 .logo {
-  float: left;
+  /* float: left; */
   padding: 10px;
   width: 60%;
 }
 .nav_side {
-  float: right;
+  /* float: right; */
   width: 30%;
   margin-top: 38px;
 }
 .nav_side a {
-  text-decoration: none;
+  /* text-decoration: ; */
   margin-right: 25px;
   padding-top: 20px;
   font-weight: bolder;
   color: black;
   font-family: "Oswald", sans-serif;
   font-size: 27px;
-  text-align: center;
+  /* text-align: center;
   align-content: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .nav_side a:hover {
   color: orange;
@@ -39,11 +42,11 @@
 }
 .main {
   background-image: url("pageintro.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 78vh;
+  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
 }
 .main .main_content {
   padding-top: 250px;
@@ -65,9 +68,12 @@
   text-align: center;
   opacity: 0.75;
   line-height: 18px;
+  /* span? */
 }
 .main .main_content .btn {
   text-align: center;
+  /* margin-left: 40%;
+  border-width: 2px solid white; */
 }
 .main .main_content .btn a {
   color: rgb(0, 0, 0);
