@@ -1,6 +1,5 @@
 .nav {
   background-color: white;
-  z-index: 9;
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
@@ -69,8 +68,6 @@
 }
 .main .main_content .btn {
   text-align: center;
-  margin-left: 40%;
-  border-width: 2px solid white;
 }
 .main .main_content .btn a {
   color: rgb(0, 0, 0);
